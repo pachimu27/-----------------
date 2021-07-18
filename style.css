@@ -448,3 +448,9 @@ button:hover {
 .footer-logo:hover {
   cursor: pointer;
 }
+
+.arrow-left:hover,
+.arrow-right:hover,
+.arr:hover {
+  cursor: pointer;
+}
