@@ -1,0 +1,450 @@
+body {
+  font-family: "SF UI Display";
+}
+
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 96px;
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  margin-top: 34px; /*в оригинале 34px*/
+  margin-left: 50px;
+  margin-right: 37px;
+}
+
+.nav {
+  margin-top: 24px;
+}
+
+.menu-item {
+  padding: 4px 24px;
+  font-size: 14px;
+  text-decoration: none;
+  color: #585858;
+  text-align: center;
+  width: auto;
+  line-height: 40px;
+  vertical-align: top;
+}
+
+.search {
+  margin-top: 37px; /*в оригинале 39px*/
+  align-self: flex-start;
+}
+
+.sign-in,
+.sign-up {
+  height: 40px;
+  padding: 4px 24px;
+}
+
+.sign-up {
+  margin-right: 50px;
+  margin-left: 16px;
+  background-color: #fd665e;
+  color: white;
+  vertical-align: top;
+  border-radius: 4px;
+  text-align: center;
+  border: none;
+}
+
+.sign-in {
+  color: #585858;
+  text-align: center;
+  border-radius: 4px;
+  border: none;
+  background-color: white;
+  margin-left: 24px;
+}
+
+.buttons {
+  align-items: center;
+  margin-top: 24px;
+}
+
+.red-btn {
+  background-color: #fd665e;
+  color: white;
+  vertical-align: top;
+  border-radius: 4px;
+  text-align: center;
+  border: none;
+}
+
+.sec1 {
+  border: 1px solid greenyellow;
+  padding-bottom: 48px;
+}
+
+h1 {
+  margin-top: 48px;
+  font-size: 112px;
+  width: 870px;
+  height: 224px;
+  font-family: "New York Extra Large";
+  margin-left: 165px;
+}
+
+.sec1-left p {
+  font-family: "SF UI Display";
+  font-size: 16px;
+  font-weight: 400;
+  width: 290px;
+  height: 130px;
+  margin-top: 56px;
+  margin-left: 165px;
+  line-height: 160%;
+  text-align: left;
+  color: #000000;
+  vertical-align: top;
+}
+
+span {
+  color: #fd665e;
+}
+
+.consultation {
+  margin-left: 165px;
+  margin-top: 48px;
+  margin-right: 167px;
+  padding: 8px 32px;
+  font-size: 14px;
+  font-family: "SF UI Display";
+  font-weight: 600;
+  line-height: 40px;
+  height: 56px;
+  width: 178px;
+}
+
+.sec1-row {
+  display: flex;
+  flex-direction: row;
+  border: 2px solid blue;
+}
+
+.sec1-left {
+  display: flex;
+  flex-direction: column;
+  border: 3px solid rgb(15, 218, 218);
+  width: 35%;
+}
+
+.sec1-right {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid red;
+  width: 65%;
+}
+
+.img-first {
+  width: 760px;
+  height: 480px;
+}
+
+.second {
+  border: 5px solid purple;
+}
+
+h2 {
+  font-family: "New York Extra Large";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  line-height: 124%; /* or 60px */
+  letter-spacing: -0.04em;
+  color: #000000;
+
+  margin-top: 64px;
+  width: 535px;
+}
+
+.sec2 h2 {
+  margin-bottom: 40px;
+}
+
+.btn button {
+  border: none;
+  background: none;
+  border: 2px solid indigo;
+}
+
+.arrow-left {
+  margin-right: 8px;
+  margin-top: 129px;
+}
+
+.second .row1 {
+  display: flex;
+  justify-content: space-between;
+  border: 2px solid hotpink;
+  margin-left: 35%;
+  margin-right: 15%;
+}
+
+.second .gallery {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  border: 2px solid gold;
+  margin-left: 165px; /* или 11.5% */
+  margin-bottom: 64px;
+}
+
+.third {
+  height: 900px; /* original 898px */
+  border: 3px solid firebrick;
+}
+
+.third h2 {
+  font-weight: 700;
+  margin-left: 165px;
+  width: 459px;
+  margin-bottom: 40px;
+}
+
+.sec3-mainflex {
+  display: flex;
+}
+
+.sec3-left {
+  /*image*/
+  margin-left: 165px;
+  margin-right: 159px;
+}
+
+.features {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 390px;
+  border: 2px solid chocolate;
+}
+
+.f1 {
+  margin-left: -7px;
+}
+
+.f1,
+.f2,
+.f3 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  border: 2px solid lime;
+  align-items: flex-start;
+}
+
+.features p {
+  margin: 0;
+}
+
+.sign:first-of-type {
+  margin-right: 38px;
+  border: solid 1px darkcyan;
+}
+
+.sign {
+  margin-right: 40px;
+}
+
+.features h3 {
+  line-height: 160%;
+  height: auto;
+  vertical-align: top;
+  font-family: "SF UI Display";
+  margin-top: 0;
+  font-size: 16px;
+  font-weight: bold;
+  align-items: flex-start;
+}
+
+.text {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: "SF UI Display";
+  font-size: 16px;
+  font-weight: 400;
+  border: solid 1px darkblue;
+}
+
+.sec3-btn {
+  padding: 8px 32px;
+  font-size: 14px;
+  font-family: "SF UI Display";
+  font-weight: 600;
+  width: 204px;
+  height: 56px;
+  align-self: center;
+  margin-top: 12px;
+}
+
+.fourth {
+  height: 588px;
+  border: 5px solid orchid;
+}
+
+.fourth h2 {
+  margin-left: 165px;
+}
+
+.fourth article {
+  font-family: "SF UI Display";
+  font-size: 32px;
+  line-height: 160%;
+  font-weight: 300;
+  width: 765px;
+}
+
+.fourth p span {
+  font-family: "SF UI Display";
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 700;
+  color: black;
+}
+
+.fourth p {
+  font-family: "SF UI Display";
+  font-size: 16px;
+  line-height: 160%;
+  font-weight: 400;
+}
+
+.fourth .box {
+  display: flex;
+  margin-left: 35%;
+  margin-right: 11%;
+  border: 3px solid darkred;
+}
+
+.quotes {
+  margin-right: 4%;
+}
+
+.bottom {
+  display: flex;
+  justify-content: space-between;
+  width: 650px;
+  margin-left: 41%;
+  border: 3px solid darkred;
+}
+
+.fifth {
+  height: 812px;
+  border: 5px solid darkblue;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.free-consultation {
+  border: none;
+  color: white;
+  background-color: #fd665e;
+  border-radius: 4%;
+  padding: 8px 32px;
+  line-height: 40px;
+  font-size: 14px;
+  font-weight: 600;
+  align-self: flex-start;
+}
+
+.realize {
+  border: 2px solid purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.realize h2 span {
+  border: 2px solid lime;
+}
+
+.house {
+  padding-top: 48px;
+  padding-bottom: 48px;
+  padding-left: 96px;
+  border: 2px solid lime;
+}
+
+.sixth {
+  height: 343px;
+  border: 5px solid blue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: space-evenly;
+}
+
+.partner-logos {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  border: 2px solid orangered;
+  align-self: center;
+  margin-bottom: 106px;
+}
+
+.sixth h2 {
+  margin-left: 5%;
+  margin-top: 64px;
+  margin-bottom: 56px;
+  width: auto;
+}
+
+footer a {
+  text-decoration: none;
+  color: #585858;
+  text-align: center;
+  line-height: 40px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "SF UI Display";
+  padding: 4px 24px;
+}
+
+footer {
+  height: 150px;
+  background-image: url(/img/footer-bg.png);
+  display: flex;
+  border: 5px solid springgreen;
+  justify-content: flex-start;
+}
+
+.footer-menu {
+  display: flex;
+  border: 2px solid lightskyblue;
+  justify-content: space-around;
+  width: 50%;
+  align-items: center;
+}
+
+.footer-logo {
+  border: 2px solid orange;
+  justify-self: flex-end !important;
+  align-self: center;
+  margin-left: 36%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.search:hover {
+  cursor: pointer;
+}
+
+.logo:hover,
+.footer-logo:hover {
+  cursor: pointer;
+}
